@@ -1,0 +1,126 @@
+
+.head{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    img{
+        width:2.1rem;
+        height: 0.68rem;
+    }
+    p{
+        margin-left: 0.18rem;
+    }
+    ul{
+        display: flex;
+        margin-left: 3.8rem;
+    }
+    li{
+        margin-top: -20px;
+    }
+    .li1{
+        text-align: center !important;
+        .icon {
+           width:0.45rem; height:0.45rem;
+           fill: currentColor;
+           overflow: hidden;
+           color: #999999;
+           
+        }
+        p{
+            font-size: 0.22rem;
+            margin: 0;
+            color: #999;
+        }
+    }
+    .li2{
+        text-align: center !important;
+        margin-left: 0.4rem;
+        .icon {
+           width:0.42rem; height:0.33rem;
+           fill: currentColor;
+           overflow: hidden;
+           color: #999999;
+           
+        }
+        p{
+            font-size: 0.22rem;
+            margin: 0;
+            color: #999;
+        }
+    }
+}
+.aa{
+    width: 100%;
+    height:2.4rem;
+    margin-top: 0.16rem;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-pagination-bullet{
+        width: 0.12rem;
+        height: 0.12rem;
+        background: #7c7c7c;
+    }
+    .swiper-pagination-bullet-active{
+        background: #00be9c;
+    }
+}
+.nav1{
+    width: 100%;
+    height: 4.65rem;
+    border-bottom:0.18rem solid #f4f4f4 ;
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items:center;
+        p{
+            margin-top: 0.2rem;
+        }
+        .l1{
+            width: 25%;
+            font-size: 0.28rem;
+            color: #333;
+            text-align: center;
+            margin-top: 0.36rem;
+        }
+        .l2{
+            width: 25%;
+            font-size: 0.28rem;
+            color: #333;
+            text-align: center;
+            margin-top: 0.52rem;
+        }
+        img{
+            width: 1.2rem;
+            height: 1.2rem;
+        }
+    }
+}
+.quan{
+    width: 100%;
+    height: 0.42rem;
+    margin-top: 0.32rem;
+    font-size: 0.24rem;
+    color: #999;
+    border-left:0.05rem solid #37c993;
+    padding-left: 0.2rem;
+    margin-left:0.2rem;
+    span{
+        font-size: 0.36rem;
+        color: #000;
+    }
+}
+.tu{
+    width:100%;
+    height:4rem;
+    text-align: center;
+    margin-top: 0.32rem;
+    img{
+        width: 95.5%;
+        height: 100%;
+        margin-left:2.25%;
+    }
+}

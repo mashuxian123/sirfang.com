@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="scss/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../a1.public/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../a1.public/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../a1.public/iconfont.css"/>
+		<script src="../a1.public/iconfont.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../a1.public/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+		<!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!--禁止浏览器自动的识别-电话号码-email--->
+		<meta name="format-detection" content="telephone=no,email=no" />
+		<!--是否启用Web全屏-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+		<!--设置苹果工具栏颜色-->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black " />
+	    <script type="text/javascript">
+	        window.onload=function(){
+	            var width=document.documentElement.clientWidth;
+	            document.documentElement.style.fontSize=width/780*100+"px";
+	            window.onresize=function(){
+	                document.location.reload();
+	            }
+	        }
+	    </script>
+	</head>
+	<body>
+		<div class="head">
+			<p><img src="img/logo.png"/></p>
+			<ul>
+				<li class="li1">
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-user"></use>
+					</svg>
+					<p>我的</p>
+				</li>
+				<li class="li2">
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-nav"></use>
+					</svg>
+					<p>导航</p>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="swiper-container aa">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/banner.jpg"/>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner1.jpg"/>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner2.jpg"/>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		
+		<div class="nav1">
+			<ul>
+				<li class="l1">
+					<a>
+						<img src="img/1首页_spec_03.png"/>
+						<p>装修方案</p>
+					</a>
+				</li>
+				<li class="l1">
+					<a>
+						<img src="img/1首页_spec_03.png"/>
+						<p>效果图</p>
+					</a>
+				</li>
+				<li class="l1">
+					<a>
+						<img src="img/1首页_spec_05.png"/>
+						<p>设计师</p>
+					</a>
+				</li>
+				<li class="l1">
+					<a>
+						<img src="img/1首页_spec_10.png"/>
+						<p>装修工地</p>
+					</a>
+				</li>
+				<li class="l2">
+					<a>
+						<img src="img/1首页_spec_12.png"/>
+						<p>装修攻略</p>
+					</a>
+				</li>
+				<li class="l2">
+					<a>
+						<img src="img/1首页_spec_13.png"/>
+						<p>免费预约</p>
+					</a>
+				</li>
+				<li class="l2">
+					<a>
+						<img src="img/1首页_spec_15.png"/>
+						<p>十秒报价</p>
+					</a>
+				</li>
+				<li class="l2">
+					<a>
+						<img src="img/1首页_spec_15.png"/>
+						<p>装修贷款</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="quan">
+			<span>全屋装修   </span> 包设计、包主材、 包水电、 包施工
+		</div>
+		
+		<div class="tu">
+			<img src="img/img1.jpg"/>
+		</div>
+		
+		<script type="text/javascript">
+			var swiper=new Swiper(".aa",{
+				pagination:".swiper-pagination"
+			})
+		</script>
+	</body>
+</html>
